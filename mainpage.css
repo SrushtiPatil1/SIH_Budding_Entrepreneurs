@@ -1,0 +1,81 @@
+.nav1, .nav2, .nav3, .nav4 {
+    padding: 10px;
+}
+.mast {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 40px;
+}
+nav a {
+    float: right;
+    padding: 15px;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+.chhan {
+    padding: 10px;
+    font-weight: bold;
+}
+.saras {
+    padding-left: 12px;
+    padding-top: 8px;
+    width: 102%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.search {
+    border-radius: 15px;
+    width: 70%;
+    padding: 8px;
+    margin: 5px;
+}
+.icon {
+    position: absolute;
+    border-radius: 50%;
+    height: 20%;
+    width: 30%;
+    top: 10%;
+    left: 36%;
+}
+.name{
+    position: absolute;
+    top:35%;
+    right: 70%;
+}
+.email {
+    position: absolute;
+    top: 40%;
+    right: 68%;
+}
+.number {
+    position: absolute;
+    top: 45%;
+    right: 49%;
+}
+.sampoorna {
+    position: relative;
+    float: right;
+    right: 4%;
+    height: 450px;
+    width: 20%;
+    padding: 2px;
+    margin-right: 1px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 25px;
+    padding-left: 2px;
+    border-radius: 6%;
+}
+.sec1, .sec2, .sec3, .sec4 {
+    border: 1px black;
+    width: 68%;
+    height: auto;
+    margin: 10px;
+    border-radius: 2%;
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 20px;
+    background-color: aqua;
+}
