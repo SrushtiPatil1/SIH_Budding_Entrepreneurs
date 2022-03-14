@@ -1,0 +1,171 @@
+.body{
+    font-family: 'Trebuchet MS';
+    padding: 20px;
+}
+.nav1, .nav2, .nav3, .nav4 {
+    padding: 10px;
+}
+.mast {
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    ) ;
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 40px;
+}
+nav a {
+    float: right;
+    padding: 15px;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+.chhan {
+    padding: 10px;
+    font-weight: bold;
+}
+.topnav {
+    overflow: hidden;
+    color: white;
+    background-color: #47a3ffa6;
+    border: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.541);
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    color: white;
+    padding: 6px;
+    border-radius: 30px;
+    width: 19.5%;
+    border: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 8px;
+    margin-right: 55px;
+    font-size: 17px;
+  }
+  .topnav input.active{
+      border-color: white;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    padding-left: 5px;
+    opacity: 1; /* Firefox */
+  }
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+.saras {
+    padding-left: 12px;
+    padding-top: 5px;
+    border: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search {
+    border-radius: 30px;
+    width: 71%;
+    border: rgba(255, 255, 255, 0.);
+    padding: 8px;
+    padding-left: 20px;
+    margin: 5px;
+}
+.icon {
+    position: absolute;
+    border-radius: 50%;
+    height: 20%;
+    width: 30%;
+    top: 10%;
+    left: 36%;
+}
+.name{
+    position: absolute;
+    top:35%;
+    right: 70%;
+}
+.email {
+    position: absolute;
+    top: 40%;
+    right: 68%;
+}
+.number {
+    position: absolute;
+    top: 45%;
+    right: 49%;
+}
+.profile {
+    position: relative;
+    float: right;
+    right: 4%;
+    height: 565px;
+    width: 20%;
+    padding: 2px;
+    color:white;
+    margin-right: 1px;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 25px;
+    padding-left: 2px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.search{
+   background-color: rgba(255, 255, 255, 0.13); 
+   border-radius: 30px;
+   backdrop-filter: blur(10px);
+   border-top: white;
+}
+.sec1, .sec2, .sec3, .sec4 {
+    border: 1px black;
+    font-family:'poppins', sans-serif;
+    width: 68%;
+    height: auto;
+    color: white;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 20px;
+        /* From https://css.glass */
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+}
