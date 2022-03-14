@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>Hello</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href ="./QNA.css">
+</head>
+
+<body style="background-color: black;font-family: 'Trebuchet MS';">
+    <header>
+        <nav>
+            <div class="topnav">
+                <a href="#home" href="#home" style="color:white">Home</a>
+                <a href="#about" style="color:white">About</a>
+                <a href="#contact"style="color:white">Contact</a>
+                <input type="text" placeholder="Search.."style="color:white !important;">
+            </div>
+        </nav>
+    </header>
+<form action="">
+
+<aside class="profile">
+    <h4>Profile</h4>
+    <a class="name">Name: </a>
+    <a class="email">E-mail: </a>
+    <a class="number">Phone Number: </a>
+</aside>
+
+<div class="sec1">
+    <p class="q1">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a1">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+</div>
+
+<div class="sec2">
+    <p class="q2">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a2">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+</div>
+
+<div class="sec3">
+    <p class="q3">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a3">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+</div>
+
+<div class="sec4">
+    <p class="q4">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a4">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+</div>
+
+</form>
+</body>
+</html>
+
+
+
+</body>
+</html>
