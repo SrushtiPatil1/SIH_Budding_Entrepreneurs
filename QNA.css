@@ -31,6 +31,10 @@ nav a {
     background-color: #47a3ffa6;
     border: white;
   }
+
+.beforesearch {
+    padding-left: 800px;
+  }
   
   /* Style the links inside the navigation bar */
   .topnav a {
