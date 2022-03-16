@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>Hello</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href ="./new.css">
+</head>
+
+<body style="background-color: black;font-family: 'Trebuchet MS';">
+    <header>
+        <nav>
+            <div class="topnav">
+                <div class="beforesearch">
+                <a class="bn" style="color: white;">CONNECTORS</a>
+                <a href="#home" href="#home" style="color:white">Home</a>
+                <a href="#ideavalidation" style="color:white">Idea Validation</a>
+                <a href="#contact"style="color:white">Contact</a>
+                </div>
+                <input type="text" placeholder="Search.."style="color:white !important;">
+            </div>
+        </nav>
+    </header>
+<form action="">
+
+<aside class="profile">
+    <img class="profile_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3f48hXq1qn6MDQF0km2Pq6JKjF2y8MZluqX48coLg6PgDVAEfG347LFLpX1J-BhRrD_w&usqp=CAU" alt="">
+    <a class="name">Name</a>
+    <a class="email">E-mail: </a>
+    <a class="number">Phone Number: </a>
+    <a class="ques_asked">Questions Asked: </a>
+    <a class="ques_answered">Questions Answered: </a>
+    <a class="ideas_validated">Ideas Validated: </a>
+</aside>
+<br>
+<aside>
+    <div class="contain">
+        <h3 class="chatbot">CHATBOT</h3>
+    </div>
+</aside>
+<div class="intro">
+    <h1>GOT A QUESTION? ASK IT HERE!
+    </h1>
+</div>
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a class="comment1">Comment1</a>
+    <a class="comment2">Comment2</a>
+</div>
+
+
+<script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "50%";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+<div class="sec1">
+    <p class="q1">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p> 
+    <p class="a1">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">Comment Section</button>
+    </div>
+</div>
+
+<div class="sec2">
+    <p class="q2">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a2">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">Comment Section</button>
+    </div>
+</div>
+
+<div class="sec3">
+    <p class="q3">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a3">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">Comment Section</button>
+    </div>
+</div>
+
+<div class="sec4">
+    <p class="q4">Que: <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, illum?</p>
+    <p class="a4">Ans: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus a sed velit illum, dolores dignissimos nesciunt autem cupiditate commodi.</p>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">Comment Section</button>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="sec5">
+    <p class="guide">Ask a question: <br></p>
+    <textarea class="qbox" rows="15" cols="165" placeholder="Type Here...."></textarea>
+</div>
+<br>
+<button class="post" type="submit">POST</button>
+</form>
+</body>
+</html>
